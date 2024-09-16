@@ -1,0 +1,109 @@
+.both{
+    clear: both;
+}
+body{
+    background-color: #6a766d;
+}
+#conteneur{
+    border: 3px solid #000000;
+    margin: auto;
+    width: 1080px;
+}
+h1{
+    margin:auto;
+    color: #089c32;
+    font-size: 80px;
+    text-align: center;
+}
+#login ul li{
+    list-style: none;
+}
+#login ul li a{
+    color:#ffffff;
+    display: block;
+    font-size: 10px;
+    float: right;
+    margin: 0 3px 0 3px;
+    text-align: right;
+    text-decoration: none;
+}
+nav{
+    background-color: #595959;
+    float: left;
+    width: 20%;
+}
+nav ul {
+    margin:0;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #089c32;
+    font-size: 40px;
+    text-decoration: none;
+    width: 20%;
+}
+nav ul li a:hover{
+    background-color:#e3e3e3;
+}
+footer{
+    border:3px solid #000000;
+    box-sizing: border-box;
+    width: 100%;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a {
+    color:#ffffff;
+    font-size: 15px;
+    text-decoration: none;
+}
+form{
+    border: 1px dotted black;
+    margin:auto;
+    padding: 10px;
+    width: 500px;
+}
+form > div {
+    margin-bottom: 20px;
+}
+label {
+    color: #fff;
+}
+input[type="text"] {
+    box-sizing: border-box;
+    border: 1px solid #089c32;
+    font-size: 16px;
+    padding: 5px;
+    width: 100%;
+}
+#Message {
+    box-sizing: border-box;
+    border: 1px solid #089c32;
+    font-size: 16px;
+    padding: 5px;
+    resize:none;
+    width: 100%;
+
+}
+input[type="text"]:focus, #Message:focus {
+    background-color: #ccc;
+    outline:0;
+}
+input[type="submit"] {
+    background-color: #089c32;
+    border: none;
+    color: #fff;
+    display: block; /* pour faire fonctionner le margin:auto */
+    font-size: 14px;
+    margin: auto;
+    padding: 10px;
+    width: 250px;
+}
+input[type="submit"]:hover {
+    background-color: #fff;
+    color: #089c32;
+    cursor: pointer;
+}
